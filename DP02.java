@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Equation {
+class DP02 {
   public static void main(String[] args) {
     Scanner input = new Scanner (System.in);
     System.out.println("Acceleration Calculator");
@@ -13,6 +13,6 @@ class Equation {
     System.out.println("Time taken in seconds:");
     double t = input.nextDouble();
     double eq = (vf - vi)/t;
-    System.out.println("The acceleration of the" + str + " is: " + eq);
+    System.out.println("The acceleration of the " + str + " is: " + eq);
   }
 }

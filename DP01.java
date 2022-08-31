@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class Main {
+class DP01 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
-    System.out.println("Whose your favorite music artist?");
+    System.out.println("Whose your favorite music artist?, type in lowercase");
     String favArtist = input.nextLine();
     System.out.println("What is you favorite letter?");
     char favLetter = input.next().charAt(0);
@@ -14,7 +14,7 @@ class Main {
     double gpa = input.nextDouble();
 
     System.out.println("Favorite Artist: " + favArtist);
-    if ((favArtist == "the neighbourhood")) {
+    if (favArtist == "the neighbourhood") {
       System.out.println("That's an awesome arist, they're my favorite too!");
     } else {
       System.out.println("That's a good one, my favorite is The Neighbourhood");
